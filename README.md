@@ -94,8 +94,6 @@ npm run lint         # Linter
 
 ---
 
----
-
 ## 📂 Estructura del Proyecto
 
 ```
