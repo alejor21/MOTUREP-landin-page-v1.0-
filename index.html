@@ -1,0 +1,96 @@
+
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+      
+      <!-- SEO Meta Tags -->
+      <title>MOTUREP - Movilidad Inteligente para Motociclistas</title>
+      <meta name="description" content="MOTUREP: Navegación inteligente, comunidad activa y seguridad vial en una sola aplicación. Disponible en Pasto, Colombia." />
+      <meta name="keywords" content="moturep, motociclistas, navegación, seguridad vial, pasto, colombia, app móvil" />
+      <meta name="author" content="MOTUREP" />
+      <meta name="theme-color" content="#000000" />
+      
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="MOTUREP - Movilidad Inteligente para Motociclistas" />
+      <meta property="og:description" content="Navegación inteligente, comunidad activa y seguridad vial en una sola aplicación" />
+      
+      <!-- Twitter -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="MOTUREP - Movilidad Inteligente para Motociclistas" />
+      <meta name="twitter:description" content="Navegación inteligente, comunidad activa y seguridad vial en una sola aplicación" />
+      
+      <!-- Performance & Preloading -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+      <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+      
+      <!-- Font Optimization -->
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'" />
+      <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
+      </noscript>
+      
+      <!-- Mobile Web App Meta -->
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      
+      <!-- Optimize Rendering -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      
+      <style>
+        /* Critical CSS - Evita FOUC */
+        #root {
+          min-height: 100vh;
+          background-color: #000;
+        }
+        
+        /* Loading indicator */
+        .loading {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 9999;
+        }
+        
+        .loading-spinner {
+          width: 50px;
+          height: 50px;
+          border: 3px solid rgba(139, 92, 246, 0.3);
+          border-top-color: #8b5cf6;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+        
+        /* Hide scrollbar during load */
+        body {
+          overflow-x: hidden;
+        }
+      </style>
+    </head>
+
+    <body>
+      <div id="root">
+        <div class="loading">
+          <div class="loading-spinner"></div>
+        </div>
+      </div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  
