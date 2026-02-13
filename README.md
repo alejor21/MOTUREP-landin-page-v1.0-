@@ -7,11 +7,11 @@
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](#)
 
 *Plataforma moderna para la gestión integral de infraestructura vial*
 
-[Demo](https://moturep.com) • [Documentación](https://docs.moturep.com) • [Reportar Bug](https://github.com/alejor21/MOTUREP-landin-page-v1.0-/issues)
+[Reportar Bug](https://github.com/alejor21/MOTUREP-landin-page-v1.0-/issues) • [Solicitar Feature](https://github.com/alejor21/MOTUREP-landin-page-v1.0-/issues)
 
 </div>
 
@@ -101,7 +101,7 @@ npm run lint       # Ejecuta el linter
 
 ## 🤝 Contribuir
 
-Las contribuciones son bienvenidas. Por favor, revisa nuestras [guías de contribución](CONTRIBUTING.md).
+Las contribuciones son bienvenidas. Para contribuir al proyecto:
 
 1. Fork el proyecto
 2. Crea tu rama de feature (`git checkout -b feature/AmazingFeature`)
@@ -113,7 +113,7 @@ Las contribuciones son bienvenidas. Por favor, revisa nuestras [guías de contri
 
 ## 📄 Licencia
 
-Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
+Este proyecto está bajo la Licencia MIT.
 
 ---
 
