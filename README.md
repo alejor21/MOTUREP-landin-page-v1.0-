@@ -11,7 +11,7 @@
 
 *Plataforma moderna para la gestión inteligente de tráfico y mantenimiento vial*
 
-[Demo](https://moturep.app) • [Documentación](https://docs.moturep.app) • [Reportar Bug](https://github.com/alejor21/MOTUREP-landin-page-v1.0-/issues)
+[🌟 Demo - Próximamente](#) • [📖 Documentación](#) • [🐛 Reportar Bug](https://github.com/alejor21/MOTUREP-landin-page-v1.0-/issues)
 
 </div>
 
@@ -93,12 +93,6 @@ npm run lint         # Linter
 ```
 
 ---
-
-## 📸 Vista Previa
-
-<div align="center">
-  <img src="./assets/preview.png" alt="Moturep Preview" width="800"/>
-</div>
 
 ---
 
